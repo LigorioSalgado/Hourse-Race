@@ -1,5 +1,5 @@
 class Horse:
-
+    
     def __init__(self, name):
         self.name = name
         self.steps = []
@@ -11,7 +11,7 @@ class Horse:
         """
         for step in range(steps):
             self.steps.append("*")
-        print("Caballo %s avanza %d" % (self.name, steps))
+        print("Caballo %s esta avanzando %d" % (self.name, steps))
 
     def print_steps(self):
         """
